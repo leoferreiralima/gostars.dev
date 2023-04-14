@@ -24,6 +24,7 @@ To get started with this project, clone the repository and install the dependenc
 git clone https://github.com/leoferreiralima/gostars.dev.git
 cd gostars.dev
 pnpm install
+npx prisma db push
 ```
 
 Next, start the development server:
