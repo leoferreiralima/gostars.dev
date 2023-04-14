@@ -1,28 +1,43 @@
-# Create T3 App
+# GoStars
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+GoStars is a mentorship platform for junior developers looking to level up their coding skills. Our platform connects aspiring "Start Travelers" with experienced "Star Guides" who can provide guidance, feedback, and support as they navigate the world of software development.
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- Connect with experienced mentors in your field
+- Get feedback on your code and advice on your career
+- Improve your skills and build your portfolio
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Technologies Used
 
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
+- [Clerk.js](https://clerk.com)
 - [Prisma](https://prisma.io)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
-## Learn More
+## Getting Started
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+To get started with this project, clone the repository and install the dependencies:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+```sh
+git clone https://github.com/leoferreiralima/gostars.dev.git
+cd gostars.dev
+pnpm install
+```
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Next, start the development server:
 
-## How do I deploy this?
+```sh
+pnpm run dev
+```
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+You can view the app by navigating to [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Contributing
+
+If you would like to contribute to this project, please open an issue or submit a pull request. We welcome contributions of all kinds, from bug fixes to new features.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
