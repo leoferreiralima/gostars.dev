@@ -1,4 +1,6 @@
-# GoStars
+<h1 align="center">
+    <img src="./public/logo.svg" width="80%">
+</h1>
 
 GoStars is a mentorship platform for junior developers looking to level up their coding skills. Our platform connects aspiring "Start Travelers" with experienced "Star Guides" who can provide guidance, feedback, and support as they navigate the world of software development.
 
@@ -24,6 +26,7 @@ To get started with this project, clone the repository and install the dependenc
 git clone https://github.com/leoferreiralima/gostars.dev.git
 cd gostars.dev
 pnpm install
+cp .env.example .env
 npx prisma db push
 ```
 

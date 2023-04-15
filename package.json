@@ -2,6 +2,10 @@
   "name": "gostars.dev",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Leonardo Ferreira Lima",
+    "email": "leonardo@leoferreira.dev"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
